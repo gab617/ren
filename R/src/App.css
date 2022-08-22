@@ -1,0 +1,120 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.content{
+  width: 100%cd re;
+  display: flex;
+}
+
+/*CUADRICULA*/
+
+.filax3{
+  display: flex;
+  margin-right: 15px;
+}
+
+.filax3 input{
+  width: 55px;
+  height: 55px;
+  font-size: 30px;
+}
+
+.filax3 h1{
+  background-color: #ccc;
+  width: 55px;
+  height: 59px;
+  text-align: center;
+  line-height: 50px;
+
+}
+
+.Rcuadriculas{
+  width: 50%;
+}
+
+.OK{
+  background-color: green;
+}
+
+.PULIR{
+  background-color: blue;
+}
+
+.LIJA{
+  background-color: yellow;
+}
+
+.SCRAP{
+  background-color: red;
+}
+
+.PULIR .fila1,.fila2{
+  display: flex;
+}
+.LIJA .fila1,.fila2,.fila3{
+  display: flex;
+}
+.SCRAP .fila1,.fila2{
+  display: flex;
+}
+
+/*VIEW DATA*/
+.content-data{
+  width: 500px;
+}
+.data-container{
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cuadro-muestra{
+  border: 4px solid white;
+  width: 100px;
+}
+.cuadro-muestra h1{
+  padding: 20px;
+  background-color: bisque;
+  border: 1px solid black;
+}
+.cuadro-muestra h3{
+  width: auto;
+}
+
+.data-container h2{
+}
+
+.muestra-data{
+  display: flex;
+}
+
+/*DATOS PIEZA*/
+
+.container-data-pieza{
+  display: row;
+  width: 100%;
+
+}
+
+.container-data-pieza h1{
+  background-color: aliceblue;
+  width: 50%;
+}
+.container-data-pieza h2{
+  background-color: bisque;
+}
+
+.container-data-pieza button{
+  width: 50%;
+  height: 35px;
+}
+.container-data-pieza input{
+  width: auto;
+}
+
+.RinputDataPieza, .RtxtDataPieza {
+  display: flex;
+}
